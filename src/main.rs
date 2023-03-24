@@ -43,7 +43,7 @@ fn launch_daemon() {
 
     // Keep the daemon running indefinitely
     loop {
-        thread::sleep(Duration::from_secs(1));
+        thread::sleep(Duration::from_secs(10));
     }
 }
 
